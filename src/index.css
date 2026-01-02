@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+
+@layer utilities {
+  .animate-bounce-vertical {
+    animation: bounce-vertical 2s infinite;
+  }
+
+  @keyframes bounce-vertical {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  /* Typing cursor blink animation */
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+    color: #7843E9;
+    font-weight: 400;
+  }
+
+  @keyframes blink {
+    0%, 50% {
+      opacity: 1;
+    }
+    50.01%, 100% {
+      opacity: 0;
+    }
+  }
+
+  /* Smooth typing appearance */
+  .typing-text {
+    display: inline;
+    white-space: nowrap;
+  }
+}
