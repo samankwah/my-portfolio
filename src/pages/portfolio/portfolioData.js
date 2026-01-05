@@ -24,7 +24,7 @@ export const future = {
       program: "Bachelor of Science in Computer Science",
       image: knust,
       // grade: "Second Class Honors",
-      startDate: "September 2015",
+      startDate: "January 2024",
       endDate: "August 2026",
     },
     {
@@ -80,58 +80,28 @@ export const future = {
       description:
         "Awarded for academic excellence by maintaining a GPA of 3.8 or higher for two consecutive semesters.",
       // image: "path/to/deans-list-certificate.png",
-      date: "June 2024",
-      nameOfInstitution: "Kwame Nkrumah University of Science & Technology",
+      date: "Augus 2017",
+      nameOfInstitution: "Kumasi Technical University",
     },
     {
       award: "Best Final Year Project",
       description:
-        "Recognized as the best final year project in the Computer Science department for developing an AI-powered chatbot.",
+        "Will be recognized as the best final year project in the Computer Science department for developing an AI-powered solution.",
       // image: "path/to/project-award.png",
-      date: "July 2026",
+      date: "November 2026",
       nameOfInstitution: "Kwame Nkrumah University of Science & Technology",
     },
     {
-      award: "Hackathon Winner",
+      award: "GROW Hackathon Winner",
       description:
-        "Won first place in the annual demo hackathon by leading a team to develop a mobile application for community health monitoring.",
+        "Won first place in the Ghana Remote & Online Work AI Hackathon by leading a team to build a web app for agro-meteorological advisory and plant health monitoring.",
       // image: "path/to/hackathon-award.png",
-      date: "September 2024",
-      nameOfInstitution: "Kwame Nkrumah University of Science & Technology",
+      date: "June 2025",
+      nameOfInstitution: "MEST Africa",
     },
   ],
 
   projects: [
-    {
-      slug: "organifert",
-      hasCaseStudy: true,
-      projectName: "Organifert",
-      description:
-        "A modern, responsive web application showcasing organic liquid fertilizers and agricultural solutions by Evans Okyere Farms, emphasizing sustainable farming practices.",
-      overviewParagraphs: [
-        "Organifert is a comprehensive digital platform developed for Evans Okyere Farms to showcase their range of organic liquid fertilizers and sustainable agricultural solutions. Built with React 18, Vite, and Tailwind CSS, this platform serves as both an educational resource and a product showcase, helping farmers and agricultural professionals discover eco-friendly farming solutions. The application features detailed information about four main fertilizer types: banana-based, moringa, citrus-based, and animal manure-based organic fertilizers.",
-        "The platform provides an intuitive user experience with individual product detail pages that include comprehensive nutrient information, crop-specific growing guides, and a farmer toolbox section filled with agricultural resources. Users can easily navigate through different product categories, access safety guidelines, and learn about sustainable farming practices. The mobile-responsive design ensures that farmers can access vital agricultural information from any device, whether they're in the field or planning their farming operations.",
-        "Organifert demonstrates the powerful combination of web technology and agricultural innovation, making sustainable farming solutions accessible to a wider audience. With 37 commits and continuous improvements, the platform has evolved into a reliable resource for farmers seeking organic alternatives. The project showcases expertise in modern React development, component-based architecture, and creating user-focused agricultural technology solutions. The application is deployed on Vercel, ensuring fast load times and reliable performance for users across Ghana and beyond.",
-      ],
-      tools: [
-        "React 18",
-        "Vite",
-        "Tailwind CSS",
-        "React Router DOM",
-        "Lucide React",
-        "Styled Components",
-        "ESLint",
-        "Vercel",
-      ],
-      contribution:
-        "Developed the complete frontend application, implemented product catalog system, created responsive design, and deployed to Vercel.",
-      skills: "React, Vite, Tailwind CSS, React Router, JavaScript",
-      link: "https://organifert.vercel.app",
-      image: project1,
-      nameOfInstitution: "Evans Okyere Farms",
-      startDate: "September 2025",
-      endDate: "November 2025",
-    },
     {
       slug: "telekiosk",
       hasCaseStudy: true,
@@ -275,7 +245,7 @@ export const future = {
       hasCaseStudy: true,
       projectName: "Meteo Homepage",
       description:
-        "A modern weather and meteorological platform built with React and Vite, providing comprehensive weather data visualization and forecasting capabilities.",
+        "A meteorological and agricultural production platform built with React and Vite, providing comprehensive weather data visualization and forecasting capabilities.",
       overviewParagraphs: [
         "Meteo Homepage is a sophisticated meteorological platform designed to deliver accurate weather information and climate data through an intuitive web interface. Built with React and Vite, this application leverages modern web development practices to create a fast, responsive weather service. The platform integrates weather APIs to provide real-time meteorological data, forecasts, and climate information essential for planning and decision-making. With 120 commits demonstrating continuous development and refinement, the project showcases a commitment to delivering reliable weather services.",
         "The application features a clean, modern interface styled with Tailwind CSS, ensuring optimal viewing across all devices. The apiService.js module handles sophisticated API integrations for weather data retrieval, while the weather.json data structure enables efficient data management and caching. The platform is configured with PostCSS for advanced CSS processing and ESLint for maintaining code quality standards. The React + Vite combination provides Hot Module Replacement (HMR) and Fast Refresh capabilities, ensuring smooth development and user experiences.",
@@ -301,6 +271,36 @@ export const future = {
       nameOfInstitution: "Meteorological Services",
       startDate: "May 2025",
       endDate: "June 2025",
+    },
+    {
+      slug: "organifert",
+      hasCaseStudy: true,
+      projectName: "Organifert",
+      description:
+        "A responsive web application showcasing organic liquid fertilizers and agricultural solutions by Evans Okyere Farms, emphasizing sustainable farming practices.",
+      overviewParagraphs: [
+        "Organifert is a comprehensive digital platform developed for Evans Okyere Farms to showcase their range of organic liquid fertilizers and sustainable agricultural solutions. Built with React 18, Vite, and Tailwind CSS, this platform serves as both an educational resource and a product showcase, helping farmers and agricultural professionals discover eco-friendly farming solutions. The application features detailed information about four main fertilizer types: banana-based, moringa, citrus-based, and animal manure-based organic fertilizers.",
+        "The platform provides an intuitive user experience with individual product detail pages that include comprehensive nutrient information, crop-specific growing guides, and a farmer toolbox section filled with agricultural resources. Users can easily navigate through different product categories, access safety guidelines, and learn about sustainable farming practices. The mobile-responsive design ensures that farmers can access vital agricultural information from any device, whether they're in the field or planning their farming operations.",
+        "Organifert demonstrates the powerful combination of web technology and agricultural innovation, making sustainable farming solutions accessible to a wider audience. With 37 commits and continuous improvements, the platform has evolved into a reliable resource for farmers seeking organic alternatives. The project showcases expertise in modern React development, component-based architecture, and creating user-focused agricultural technology solutions. The application is deployed on Vercel, ensuring fast load times and reliable performance for users across Ghana and beyond.",
+      ],
+      tools: [
+        "React 18",
+        "Vite",
+        "Tailwind CSS",
+        "React Router DOM",
+        "Lucide React",
+        "Styled Components",
+        "ESLint",
+        "Vercel",
+      ],
+      contribution:
+        "Developed the complete frontend application, implemented product catalog system, created responsive design, and deployed to Vercel.",
+      skills: "React, Vite, Tailwind CSS, React Router, JavaScript",
+      link: "https://organifert.vercel.app",
+      image: project1,
+      nameOfInstitution: "Evans Okyere Farms",
+      startDate: "September 2025",
+      endDate: "November 2025",
     },
   ],
 
@@ -372,9 +372,9 @@ export const future = {
     location: "Addington Park",
     maritalStatus: "single",
     sex: "male",
-    bio: "I'm the hottest web dev in africa at the moment",
+    bio: "I’m currently one of Africa’s leading software developers.",
     about:
-      "A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product",
+      "A results-driven Software Developer creating and managing websites and web applications that drive product success.",
     contact: "0240298910",
     resume: "secure/uploads/15218",
     githubLink: "https://github.com/samankwah",

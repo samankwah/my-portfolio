@@ -35,10 +35,11 @@ const About = () => {
               ) : (
                 <div className="flex flex-col gap-4 text-justify">
                   <p>
-                    I&apos;m a Software Developer specializing in building modern web applications
-                    using React, TypeScript, and cutting-edge technologies. Currently at ByteShift,
-                    I create scalable solutions from healthcare kiosks to government systems.
-                    Check out my work in the{" "}
+                    I&apos;m a Software Developer specializing in building
+                    modern web applications using React, TypeScript, and
+                    cutting-edge technologies. Currently at ByteShift, I create
+                    scalable solutions from healthcare kiosks to government
+                    systems. Check out my work in the{" "}
                     <a
                       href="#projects"
                       className="text-violet-600 hover:underline font-semibold"
@@ -48,8 +49,8 @@ const About = () => {
                     section.
                   </p>
                   <p>
-                    I&apos;m passionate about sharing knowledge and learning from the developer
-                    community. Connect with me on{" "}
+                    I&apos;m passionate about sharing knowledge and learning
+                    from the developer community. Connect with me on{" "}
                     <Link
                       to="https://www.linkedin.com/in/stephenamankwah/"
                       target="_blank"
@@ -70,8 +71,9 @@ const About = () => {
                     where I share insights on web development.
                   </p>
                   <p>
-                    I&apos;m open to opportunities where I can contribute, learn, and grow.
-                    If you have a project that matches my skills and experience, let&apos;s connect.
+                    I&apos;m open to opportunities where I can contribute,
+                    learn, and grow. If you have a project that matches my
+                    skills and experience, let&apos;s connect.
                   </p>
                 </div>
               )}
