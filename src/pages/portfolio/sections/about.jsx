@@ -30,7 +30,7 @@ const About = () => {
               Get to know me!
             </h4>
             <div className="text-base md:text-lg text-gray-700 leading-relaxed space-y-4">
-              {userDetails.userProfile.bio.length > 50 ? (
+              {userDetails.userProfile.bio.length > 500 ? (
                 <p>{userDetails.userProfile.bio}</p>
               ) : (
                 <div className="flex flex-col gap-4 text-justify">

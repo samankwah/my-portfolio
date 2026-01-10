@@ -82,10 +82,10 @@ const ScrollToTopButton = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-24 right-8 z-50 bg-violet-600 hover:bg-violet-700 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-110 active:scale-95"
+          className="fixed bottom-20 right-5 z-50 bg-violet-600 hover:bg-violet-700 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-110 active:scale-95"
           aria-label="Scroll to top"
         >
-          <ChevronUp size={24} strokeWidth={2.5} />
+          <ChevronUp size={20} strokeWidth={2.5} />
         </button>
       )}
     </>

@@ -21,10 +21,7 @@ const Chatbot = () => {
     if (inputMessage.trim() === "") return;
 
     // Add user message
-    const newMessages = [
-      ...messages,
-      { type: "user", text: inputMessage },
-    ];
+    const newMessages = [...messages, { type: "user", text: inputMessage }];
 
     // Simple bot responses
     let botResponse = "";
@@ -33,15 +30,21 @@ const Chatbot = () => {
     if (lowerInput.includes("hello") || lowerInput.includes("hi")) {
       botResponse = `Hello! I'm ${userDetails.firstname}'s portfolio assistant. How can I help you today?`;
     } else if (lowerInput.includes("contact") || lowerInput.includes("email")) {
-      botResponse = `You can contact ${userDetails.firstname} at ${userDetails.userProfile.email || "the contact form below"}. Feel free to reach out!`;
+      botResponse = `You can contact ${userDetails.firstname} at ${
+        userDetails.userProfile.email || "the contact form below"
+      }. Feel free to reach out!`;
     } else if (lowerInput.includes("project")) {
-      botResponse = `${userDetails.firstname} has ${userDetails.projects?.length || 0} projects showcased. Scroll down to the Projects section to see them all!`;
+      botResponse = `${userDetails.firstname} has ${
+        userDetails.projects?.length || 0
+      } projects showcased. Scroll down to the Projects section to see them all!`;
     } else if (lowerInput.includes("skill")) {
       botResponse = `${userDetails.firstname} has expertise in various technologies. Check out the About section to learn more about the skills!`;
     } else if (lowerInput.includes("experience")) {
-      botResponse = "You can find detailed work experience in the Experience section of this portfolio.";
+      botResponse =
+        "You can find detailed work experience in the Experience section of this portfolio.";
     } else {
-      botResponse = "That's interesting! Feel free to explore the portfolio to learn more, or use the contact form to get in touch directly.";
+      botResponse =
+        "That's interesting! Feel free to explore the portfolio to learn more, or use the contact form to get in touch directly.";
     }
 
     newMessages.push({ type: "bot", text: botResponse });
@@ -124,10 +127,10 @@ const Chatbot = () => {
       {/* Floating Button */}
       <button
         onClick={toggleChat}
-        className="fixed bottom-6 right-4 md:right-8 bg-violet-600 text-white p-4 rounded-full shadow-lg hover:bg-violet-700 transition-all duration-300 hover:scale-110 z-40"
+        className="fixed bottom-6 right-5 md:right-8 bg-violet-600 text-white p-4 rounded-full shadow-lg hover:bg-violet-700 transition-all duration-300 hover:scale-110 z-40"
         aria-label="Open chat"
       >
-        {isOpen ? <X size={28} /> : <MessageCircle size={28} />}
+        {isOpen ? <X size={28} /> : <MessageCircle size={20} />}
       </button>
     </>
   );
