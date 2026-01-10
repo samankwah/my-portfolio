@@ -21,7 +21,7 @@ export const future = {
       location: "Kumasi, Ghana",
       description:
         "A leading science and technology university in West Africa, known for its research and innovation.",
-      program: "Bachelor of Science in Computer Science",
+      program: "BSc Computer Science",
       image: knust,
       // grade: "Second Class Honors",
       startDate: "January 2024",
@@ -308,8 +308,8 @@ export const future = {
     {
       organisation: "ICRISAT",
       description: "I'm very good at it",
-      skills: "S2S forecasting, Crop modeling, Seasonal Forecasting",
-      startDate: "2024-07-05",
+      skills: "DSSAT, CRAFT, Crop modeling",
+      startDate: "2021-09-05",
       endDate: "2024-08-11",
       role: "Crop Modeler",
       responsibility:
@@ -321,7 +321,7 @@ export const future = {
       id: "66a6d0b7d972de20873df27a",
     },
     {
-      organisation: "FSRP",
+      organisation: "MOFA - FSRP",
       description: "I'm very good at it",
       skills:
         "Crop Calender and Advisory, Crop modeling, Seasonal Forecasting, Web Development",
@@ -331,7 +331,7 @@ export const future = {
       responsibility:
         "Collect all meteorological data needed for the climate/weather cropping calendar and perform pilot analysis with past climate data (Agrometeorological Seasonal Outlook- 2020-2023) on the chosen crops and livestock the team will be working with.",
       location: "Accra",
-      projectName: "Agro-Climatic Information Services",
+      projectName: "Agro-Climatic Services",
       createdAt: "2024-07-28T23:13:59.963Z",
       updatedAt: "2024-07-28T23:13:59.963Z",
       id: "66a6d0b7d972de20873df27a",
@@ -341,27 +341,28 @@ export const future = {
     {
       companyName: "Ghana Meteorological Agency",
       role: "Agrometeorologist",
-      skills: "S2S forecasting, Crop modeling, Seasonal Forecasting",
+      skills:
+        "Agromet bulletins, S2S forecasting, Crop modeling, Seasonal Forecasting",
       responsibility:
-        "Ideated detailed and meaningful statistical analyses by using data on precipitation, humidity, wind and sunshine parameters to derive evapotranspiration and solar radiation dataset.",
+        "Used advanced computer systems and software tools to analyze weather data, resulting in highly accurate weather forecasts and sophisticated models.",
       location: "Accra, Ghana",
-      startDate: "2019-07-28",
-      endDate: "2023-09-30",
+      startDate: "2019-01-21",
+      endDate: "Present",
       createdAt: "2024-07-23T15:04:33.561Z",
       updatedAt: "2024-07-23T15:04:33.561Z",
       id: "669fc681885925ada2d4d18f",
     },
     {
-      companyName: "Ghana Meteorological Agency",
-      role: "Agrometeorologist",
-      skills: "S2S forecasting, Crop modeling, Seasonal Forecasting",
+      companyName: "ByteShift",
+      role: "Chief Technology Officer (CTO) / Software Developer",
+      skills: "Python, TypeScript, JavaScript, React, Tailwind CSS",
       responsibility:
-        "Used advanced computer systems and software tools to analyze weather data, resulting in highly accurate weather forecasts and sophisticated models.",
+        "Led the design and development of scalable software systems, including data-driven applications and APIs. Oversaw technical strategy, backend architecture and frontend implementation.",
       location: "Accra, Ghana",
-      startDate: "2024-07-27",
-      endDate: "2024-07-21",
+      startDate: "2024-09-01",
+      endDate: "Present",
       createdAt: "2024-07-23T15:04:06.471Z",
-      updatedAt: "2024-07-23T15:04:06.471Z",
+      updatedAt: "2026-01-09T00:00:00.000Z",
       id: "669fc666885925ada2d4d18a",
     },
   ],

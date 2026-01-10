@@ -17,9 +17,8 @@ const Footer = () => {
               {userDetails.lastname.toUpperCase()}
             </h4>
             <p className="text-gray-400 mt-3">
-              A Frontend focused Web Developer building the Frontend of Websites
-              and Web Applications that leads to the success of the overall
-              product
+              A Software Developer building the Frontend of Websites and Web
+              Applications that leads to the success of the overall product
             </p>
           </div>
 
@@ -67,7 +66,8 @@ const Footer = () => {
         <div className="mt-10 text-center">
           <hr className="border-gray-700" />
           <small className="text-gray-500 mt-4 block">
-            © {new Date().getFullYear()}. Made by {userDetails.firstname} {userDetails.lastname}
+            © {new Date().getFullYear()}. Made by {userDetails.firstname}{" "}
+            {userDetails.lastname}
           </small>
         </div>
       </div>
