@@ -243,13 +243,13 @@ export const future = {
     {
       slug: "meteo-homepage",
       hasCaseStudy: true,
-      projectName: "Meteo Homepage",
+      projectName: "Agro Meteo",
       description:
         "A meteorological and agricultural production platform built with React and Vite, providing comprehensive weather data visualization and forecasting capabilities.",
       overviewParagraphs: [
-        "Meteo Homepage is a sophisticated meteorological platform designed to deliver accurate weather information and climate data through an intuitive web interface. Built with React and Vite, this application leverages modern web development practices to create a fast, responsive weather service. The platform integrates weather APIs to provide real-time meteorological data, forecasts, and climate information essential for planning and decision-making. With 120 commits demonstrating continuous development and refinement, the project showcases a commitment to delivering reliable weather services.",
+        "Agro Meteo is a sophisticated meteorological platform designed to deliver accurate weather information and climate data through an intuitive web interface. Built with React and Vite, this application leverages modern web development practices to create a fast, responsive weather service. The platform integrates weather APIs to provide real-time meteorological data, forecasts, and climate information essential for planning and decision-making. With 120 commits demonstrating continuous development and refinement, the project showcases a commitment to delivering reliable weather services.",
         "The application features a clean, modern interface styled with Tailwind CSS, ensuring optimal viewing across all devices. The apiService.js module handles sophisticated API integrations for weather data retrieval, while the weather.json data structure enables efficient data management and caching. The platform is configured with PostCSS for advanced CSS processing and ESLint for maintaining code quality standards. The React + Vite combination provides Hot Module Replacement (HMR) and Fast Refresh capabilities, ensuring smooth development and user experiences.",
-        "Meteo Homepage represents expertise in building data-driven applications that transform complex meteorological information into accessible, user-friendly formats. The project demonstrates proficiency in React development (98.8% of codebase), API integration, and creating responsive weather applications. The use of environment variables through .env configuration ensures secure API key management and deployment flexibility. This platform serves as a valuable tool for individuals, agricultural professionals, and organizations requiring reliable weather information, showcasing how modern web technologies can make climate data more accessible and actionable.",
+        "Agro Meteo represents expertise in building data-driven applications that transform complex meteorological information into accessible, user-friendly formats. The project demonstrates proficiency in React development (98.8% of codebase), API integration, and creating responsive weather applications. The use of environment variables through .env configuration ensures secure API key management and deployment flexibility. This platform serves as a valuable tool for individuals, agricultural professionals, and organizations requiring reliable weather information, showcasing how modern web technologies can make climate data more accessible and actionable.",
       ],
       tools: [
         "React",
@@ -266,7 +266,7 @@ export const future = {
         "Developed the complete weather platform, implemented API integration system, created responsive UI, and optimized for performance with caching mechanisms.",
       skills:
         "React, Vite, API Integration, Weather Data Visualization, Tailwind CSS, JavaScript",
-      link: "https://github.com/samankwah/meteo-homepage-main",
+      link: "https://agromet-gh.netlify.app/",
       image: project6,
       nameOfInstitution: "Meteorological Services",
       startDate: "May 2025",
